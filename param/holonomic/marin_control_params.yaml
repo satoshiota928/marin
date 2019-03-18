@@ -1,0 +1,10 @@
+wheel_base: 0.48
+
+encoder_ppr: 1440
+encoder_diameter: 0.05
+
+control_frequency: 50
+robot_state_publish_frequency: 50
+
+feedback_gain_p: 1
+feedback_gain_i: 0
