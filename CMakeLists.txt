@@ -195,6 +195,9 @@ target_link_libraries(robot_state_node ${catkin_LIBRARIES})
 add_executable(odometry_publisher_node src/odometry_publisher_node.cpp)
 target_link_libraries(odometry_publisher_node ${catkin_LIBRARIES})
 
+add_executable(imu_node src/imu_node.cpp)
+target_link_libraries(imu_node ${catkin_LIBRARIES})
+
 ## Mark other files for installation (e.g. launch and bag files, etc.)
 # install(FILES
 #   # myfile1
